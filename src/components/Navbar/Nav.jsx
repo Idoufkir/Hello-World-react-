@@ -11,14 +11,14 @@ function Nav() {
     return (
         <nav>
             <Link style={navStyle} to="/">
-            <h3>Hello World</h3>
+            <h3>Azul React Js!</h3>
             </Link>
             <ul className="nav-links">
-                <Link style={navStyle} to="/shop">
-                    <li>Shop</li>
+                <Link style={navStyle} to="/idoufkir">
+                    <li>IDOUFKIR Mustafa</li>
                 </Link>
-                <Link style={navStyle} to="product">
-                    <li>Product</li>
+                <Link style={navStyle} to="mouissi">
+                    <li>MOUISSI Ibrahim</li>
                 </Link>
             </ul>
         </nav>
