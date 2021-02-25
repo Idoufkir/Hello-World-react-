@@ -11,7 +11,7 @@ function Shop() {
             </div>
             <div class="col-9">
                 <h5 class="card-title">IDOUFKIR Mustafa</h5><br></br>
-                <b>Développeur full stack</b><br></br>
+                <b>DÉVELOPPEUR WEB FULL STACK</b><br></br>
                 <p class="card-text">A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Laravel and some other cool libraries and frameworks.</p>
                 <hr/>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
