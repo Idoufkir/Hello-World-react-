@@ -3,6 +3,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+     '50%': '50%',
+     '16': '4rem',
+    },
     boxShadow: {
       header: "0px 0px 50px 1px rgba(0, 0, 0, 0.35)",
       card: "0px 0px 25px 1px rgba(0, 0, 0, 0.25)",

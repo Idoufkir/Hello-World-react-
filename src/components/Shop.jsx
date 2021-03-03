@@ -1,23 +1,27 @@
 import React from 'react';
 import '../App.css';
-import LogoImg  from "./img/idoufkir.jpg";
+import LogoImg from "./img/idoufkir.jpg";
 
 function Shop() {
-    return(
-        <div class=" mx-auto bg-white rounded-lg shadow-sm overflow-hidde md:max-w-6xl p-5">
-            <div class="md:flex">
-                <div class="md:flex-shrink-0">
-                    <img class="object-full" src={LogoImg} alt="Man looking at item at a store" />
+    return (
+        <div class=" mx-auto bg-white rounded-lg shadow-sm overflow-hidde p-5">
+            <div class="xl:flex">
+                <div className="flex flex-wrap justify-center">
+                    <div className="px-5">
+                        <img src={LogoImg} alt="..." className="shadow-lg rounded-full max-w-full h-auto align-middle border-none" />
+                    </div>
                 </div>
-                <div class="py-5">
-                    <div class="text-lg text-indigo-500  font-semibold">
+                <div class="p-5">
+                    <div class="text-lg text-indigo-500 font-semibold">
                             IDOUFKIR Mustafa
                     </div>
-                    <a href="#" class="block mt-4 text-lg leading-tight font-medium text-black hover:underline">
-                            DÉVELOPPEUR WEB FULL STACK
-                    </a>
-                    <div class="mt-2 text-justify p-5 ">
-                    A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Laravel and some other cool libraries and frameworks.
+                    <div class="block mt-4 text-lg leading-tight font-medium text-black hover:underline">
+                        <h3>DÉVELOPPEUR WEB FULL STACK</h3>
+                    </div>
+                    <div class="mt-6 md:max-h-2md text-center py-5">
+                        <p>
+                        A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Laravel and some other cool libraries and frameworks.
+                        </p>
                     </div>
                 </div>
             </div>
